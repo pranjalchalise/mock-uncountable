@@ -19,7 +19,7 @@ This project is a small sandbox that recreates a few core ideas behind the Uncou
 - **Heuristic optimization advisor**  
   Highlights cost, cure-time and field-performance levers by comparing a chosen experiment to dataset statistics.
 
-- ** GPT-powered advisor**  
+- **GPT-powered advisor**  
   Uses a compact prompt to generate concrete suggestions for the next experiments.
 
 - **Clean, lightweight UI**  

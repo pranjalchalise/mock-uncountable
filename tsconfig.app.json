@@ -1,0 +1,32 @@
+{
+  // This config drives TypeScript for your browser code (src/**).
+  // It is intentionally simple so it works on any reasonably recent TS
+  // version without weird “unknown compiler option” errors.
+  "compilerOptions": {
+    // Modern JS output
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+
+    // Module handling tailored for Vite
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+
+    // React / JSX support
+    "jsx": "react-jsx",
+
+    // Typical quality-of-life flags
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+
+    // A bit of hygiene without being annoying
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": ["src"]
+}

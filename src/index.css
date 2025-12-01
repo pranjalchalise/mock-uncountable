@@ -1,0 +1,13 @@
+/* src/index.css */
+
+/* Font close to Uncountable's marketing font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: small body tweak for nicer rendering */
+body {
+  @apply bg-background text-[#111827] font-sans;
+}
